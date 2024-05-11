@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+.link__right a{
+    color: #333;
+    font-size: 15px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.search{
+    width: 153px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    line-height: 150%;
+}
+.search input::placeholder{
+    color: #666;
+}
+.btn{
+    width: 260px;
+    height: 51px;
+    padding: 12px;
+    background-color: #EA625C;
+    border: 2px solid #EA625C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: white;
+    transition: .5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border-color: #EA625C;
+    background-color: transparent;
+    color: #333;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.lorem{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.hero{
+    margin-top: 80px;
+    background-image: url(../images/intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 587px 565px;
+    background-position: bottom right -197px;
+    height: 567px;
+    
+
+}
+
+
+
+.hero__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    max-width: 490px;
+}
+.card{
+    padding: 70px 0;
+}
+
+.card__content{
+    max-width: 280px;
+}
+.card__title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+.card__content p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.carts__001{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.dots{
+    display: flex;
+    gap: 10px;
+}
+.dots span{
+    width: 8px;
+    height: 8px;
+    background-color: #DDD;
+}
+.learn-more{
+    color: #EA625C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding-left: 50px;
+    position: relative;
+}
+
+.learn-more::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 3px;
+    border: 3px;
+    background-color: #EA625C;
+
+}
+.about{
+    padding: 70px 0;
+}
+.nike__contakt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nike__contakt .left{
+    max-width: 490px;
+}
+.nike__contakt .right{
+    width: 400px;
+    height: 600px;
+}
+.nike__contakt .right img{
+    width: 400px;
+    height: 600px;
+}
+.info{
+    width: 100%;
+    padding: 240px 0;
+    background-image: url(../images/runner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info .left{
+    max-width: 490px;
+    margin-left: auto;
+}
+.info .left .title{
+    color: #FFFFFF;
+
+}
+.info .left .lorem{
+    color: #FFFFFF;
+    border-color: #FFFFFF;;
+}
+
+
+
+
